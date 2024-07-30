@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Anonymous Pro", monospace;
+}
+
+/* Шапка страницы */
+
+header {
+    background-color: chartreuse;
+    padding: 20px;
+}
+
+.logo {
+  
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+/* Основное страницы */
+
+body {
+    background-image: linear-gradient(to right bottom, #FFED00, #FF3DFE, #5253FF);
+    padding: 100px 0;
+    width: 100%;
+    align-items: center;
+
+}
+
+#main-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 30px;
+}
+
+.main-div {
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px;
+    max-width: 300px;
+}
+
+.name-playlist {
+    padding: 18px 100px;
+    font-size: 32px;
+    font-weight: 900;
+    flex-basis: min-content;
+    min-width: 40%;
+    width: min-content;
+}
+
+.img-music {
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.title-music {
+    margin: 8px 15px;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.author-music {
+    color: gray;
+    margin: 8px 15px;
+    font-size: 20px;
+}
+
+/* Подвал страницы */
+
+footer {
+    align-items: center;
+    padding: 40px 100px;
+    background-color: black;
+}
+
+.footer-logo{
+    width: 40%;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ul{
+    display: flex;
+}
+li{
+    margin-left: 24px;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    margin: 0 5px;
+    outline: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkred;
+}
+
+a:active {
+    color: gray;
+}
+
+
+@media (max-width: 900px) {
+    .logo {
+        width: 60%;
+    }
+    .name-playlist {
+         width: 60%;
+    }
+}
